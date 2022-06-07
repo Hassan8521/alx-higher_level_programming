@@ -1,8 +1,13 @@
 #!/usr/bin/python3
-from sys import argv
 if __name__ == "__main__":
-    newsum = 0
-    if len(argv) > 1:
-        for 1 in range(1, len(argv)):
-            newsum += int(argv[i])
-            print(newsum)
+    import sys
+    if len(sys.argv) == 1:
+        print(0)
+    elif len(sys.argv) == 2:
+        print(sys.argv[1])
+    else:
+        newsum = 0
+        for i in range(1, len(sys.argv)):
+            a = int(sys.argv[i])
+            newsum = newsum + a
+        print(newsum)
