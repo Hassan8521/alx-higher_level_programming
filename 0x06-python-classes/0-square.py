@@ -1,5 +1,6 @@
-#!/usr/bin/pytho3
+#!/usr/bin/python3
 
 class Square:
     
     pass
+my_square = Square()
