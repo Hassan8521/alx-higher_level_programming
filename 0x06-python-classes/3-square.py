@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """Define a square"""
 
+
 class Square:
     """class that define a square based o 2-square"""
 
-    
     def __init__(self, size=0):
         """initializing instant attribute size.
         Args:
