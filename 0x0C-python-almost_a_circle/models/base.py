@@ -14,7 +14,7 @@ class Base:
         """
         if id is None:
             Base.__nb_objects += 1
-              id = Base.__nb_objects
+            id = Base.__nb_objects
 
         self.id = id
 
@@ -76,6 +76,4 @@ class Base:
         json_file = Base.from_json_string(content)
         for obj in json_file:
             new.append(cls.create(**obj))
-        return new))
-            return new
-        -- INSERT --                            
+            return new                   
